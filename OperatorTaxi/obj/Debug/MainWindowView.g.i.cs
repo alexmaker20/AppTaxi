@@ -91,7 +91,7 @@ namespace OperatorTaxi {
             return;
             case 2:
             
-            #line 150 "..\..\MainWindowView.xaml"
+            #line 151 "..\..\MainWindowView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Taxists);
             
             #line default
@@ -99,7 +99,7 @@ namespace OperatorTaxi {
             return;
             case 3:
             
-            #line 153 "..\..\MainWindowView.xaml"
+            #line 154 "..\..\MainWindowView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.AddOrder);
             
             #line default
@@ -107,7 +107,7 @@ namespace OperatorTaxi {
             return;
             case 4:
             
-            #line 156 "..\..\MainWindowView.xaml"
+            #line 157 "..\..\MainWindowView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.DeleteOrder);
             
             #line default
@@ -115,7 +115,7 @@ namespace OperatorTaxi {
             return;
             case 5:
             
-            #line 159 "..\..\MainWindowView.xaml"
+            #line 160 "..\..\MainWindowView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.SaveData);
             
             #line default
@@ -123,7 +123,7 @@ namespace OperatorTaxi {
             return;
             case 6:
             
-            #line 162 "..\..\MainWindowView.xaml"
+            #line 163 "..\..\MainWindowView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.UploadData);
             
             #line default
@@ -131,7 +131,7 @@ namespace OperatorTaxi {
             return;
             case 7:
             
-            #line 165 "..\..\MainWindowView.xaml"
+            #line 166 "..\..\MainWindowView.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Exit);
             
             #line default
