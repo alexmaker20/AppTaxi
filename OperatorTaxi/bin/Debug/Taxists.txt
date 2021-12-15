@@ -2,5 +2,5 @@ BMW BC4321 True
 Mers CA1431 True
 Kirin DS1313 True
 Toyota AE86TR False
-Mitsubishi LX1099 True
+Mitsubishi LX1099 False
 Tesla BV2398 False

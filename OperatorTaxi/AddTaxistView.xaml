@@ -63,7 +63,7 @@
                 FontSize="14"
                 Width="63"
                 Height="30"
-                Margin="24,26,0,0"
+                Margin="14,26,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Text="Model"
@@ -74,8 +74,7 @@
                 x:Name="Model"
                 Grid.Row="0"
                 Width="180"
-                Height="30"
-                Margin="0,0,20,0"
+                Margin="0,26,20.4,26.4"
                 HorizontalAlignment="Right" />
 
             <TextBlock
@@ -83,7 +82,7 @@
                 Grid.Row="1"
                 Width="63"
                 Height="30"
-                Margin="24,26,0,0"
+                Margin="14,26.6,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 RenderTransformOrigin="0.944, 1.468"
@@ -95,8 +94,7 @@
                 x:Name="Number"
                 Grid.Row="1"
                 Width="180"
-                Height="30"
-                Margin="0,0,20,0"
+                Margin="0,26.6,20.4,25.8"
                 HorizontalAlignment="Right"
                 RenderTransformOrigin="0.514,-0.172" />
         </Grid>

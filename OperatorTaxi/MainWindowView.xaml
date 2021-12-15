@@ -5,7 +5,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="Taxi Orders Manager"
-    Width="842"
+    Width="851.442"
     Height="395.5"
     TextBlock.TextAlignment="Center"
     mc:Ignorable="d">
@@ -17,10 +17,10 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border x:Name="border" Background="#828282" BorderThickness="0" Padding="5">
+                        <Border x:Name="border" Background="Gray" BorderThickness="0" Padding="5">
                             <ContentPresenter x:Name="cp"
                                               Content="{TemplateBinding Content}"
-                                              TextBlock.Foreground="White"
+                                              TextBlock.Foreground="#202020"
                                               VerticalAlignment="Center" 
                                               HorizontalAlignment="Center" 
                                               TextBlock.FontSize="14"
@@ -71,7 +71,7 @@
             x:Name="orderListView"
             Grid.Row="1"
             Grid.Column="1"
-            Foreground="#202020"
+            Foreground="black"
             Background="white"
             FontSize="18"
             Width="auto"
@@ -122,7 +122,7 @@
             <Label  Content="Where" Background="White" Margin="1,0,1,0" Width="150" HorizontalContentAlignment="Center" Foreground="#335563"  >
             </Label>
             <Label Content="Destination" Background="White" Margin="0,0,1,0" Width="150"  HorizontalContentAlignment="Center" Foreground="#335563"  ></Label>
-            <Label Content="Passangers" Background="White" Margin="0,0,1,0" Width="75"  HorizontalContentAlignment="Center" Foreground="#335563" ></Label>
+            <Label Content="Passangers" Background="White" Margin="0,0,1,-0.4" Width="84"  HorizontalContentAlignment="Center" Foreground="#335563" ></Label>
             <Label Content="Status" Background="White" Margin="0,0,1,-0.4" Width="143"  HorizontalContentAlignment="Center" Foreground="#335563" />
             <Label Content="CarNumber" Background="White" Margin="0,0,0,0" Width="108"  HorizontalContentAlignment="Center" Foreground="#335563" ></Label>
         </StackPanel>
@@ -133,16 +133,15 @@
             Grid.RowSpan="2"
             VerticalAlignment="Stretch"
             Orientation="Vertical" Height="Auto" Margin="0,0,0,0" >
-
-            <Label TextBlock.FontSize="30" Content="8bit Taxi"
+            <Label TextBlock.FontSize="30" Content="Operator Taxi"
                    VerticalAlignment="Center"
-                   TextBlock.Foreground="#335563" Margin="25,0,30,0" RenderTransformOrigin="0.5,0.5">
+                   TextBlock.Foreground="#202020" Margin="0,10,-21.2,0" RenderTransformOrigin="1,1" HorizontalAlignment="Right" Width="220">
                 <Label.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-7.176"/>
-                        <TranslateTransform/>
+                        <SkewTransform AngleY="0.785"/>
+                        <RotateTransform Angle="-0.426"/>
+                        <TranslateTransform X="0.019" Y="1.054"/>
                     </TransformGroup>
                 </Label.RenderTransform>
             </Label>

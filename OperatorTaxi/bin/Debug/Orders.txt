@@ -2,6 +2,6 @@ Horodotska 40, Zelena 120, 5, APPOINTED, BC4321
 Pechera 39a, Lichakivska 23, 3, APPOINTED, CA1431
 Bandery 144, Univesitetska 1, 0, NOTAPPOINTED, ------
 Shevchenka 132, Naukova 56, 7, APPOINTED, DS1313
-Lviv, Kyiv, 3, APPOINTED, LX1099
 Kyiv, Lviv, 4, NOTAPPOINTED, ------
 Мукачево, Рівне, 1, NOTAPPOINTED, ------
+Soborna, Лечаківська, 2, NOTAPPOINTED, ------
